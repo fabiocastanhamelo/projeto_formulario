@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: block;
+    background-color: rgba(238, 255, 0, 0.226);
+    margin: 0 auto;
+    padding: 1rem;
+    width: 600px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#mensagem {
+    padding: 2.8rem;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input, textarea {
+    padding: .4rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.error-message {
+    color: rgba(255, 0, 0, 0.466);
+    margin-top: 0.1rem;
+}
+
+button {
+    background-color: rgba(255, 228, 196, 0.822);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.253);
+}
+
+.error input, .error textarea {
+    border-color: rgba(255, 0, 0, 0.466);;
+}
